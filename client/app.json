@@ -1,0 +1,55 @@
+{
+    "pages": [
+        "pages/index/index",
+        "pages/chat/chat",
+        "pages/activeTracking/activeTracking",
+        "pages/addCard/addCard",
+        "pages/inbox/inbox",
+        "pages/userCenter/userCenter"
+    ],
+    "window": {
+        "backgroundTextStyle": "dark",
+        "navigationBarBackgroundColor": "#fff",
+        "navigationBarTitleText": "",
+        "navigationBarTextStyle": "black"
+    },
+    "tabBar": {
+      "backgroundColor": "#FFFFFF",
+      "borderStyle": "black",
+      "selectedColor": "#FFFFFF",
+      "color": "#FFFFFF",
+      "list": [
+        {
+          "pagePath": "pages/index/index",
+          "iconPath": "assets/images/ic_home_24px@3x.png",
+          "selectedIconPath": "assets/images/ic_home_24px_Selected@3x.png",
+          "text": "首页"
+        },
+        {
+          "pagePath": "pages/activeTracking/activeTracking",
+          "iconPath": "assets/images/ic_activeTracking_24px@3x.png",
+          "selectedIconPath": "assets/images/ic_activeTrackingSelected_24px@3x.png",
+          "text": "我的抢拍"
+        },
+        {
+          "pagePath": "pages/addCard/addCard",
+          "iconPath": "assets/images/ic_addBox_24px@3x.png",
+          "selectedIconPath": "assets/images/ic_addBoxSelected_24px@3x.png",
+          "text": "添加"
+        },
+        {
+          "pagePath": "pages/inbox/inbox",
+          "iconPath": "assets/images/ic_chat_24px@3x.png",
+          "selectedIconPath": "assets/images/ic_chatSelected_24px@3x.png",
+          "text": "消息"
+        },
+        {
+          "pagePath": "pages/userCenter/userCenter",
+          "iconPath": "assets/images/ic_user_24px@3x.png",
+          "selectedIconPath": "assets/images/ic_userSelected_24px@3x.png",
+          "text": "我的"
+        }
+      ]
+    }
+
+}
